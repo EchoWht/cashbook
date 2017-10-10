@@ -1,0 +1,111 @@
+.datetimepicker{
+    margin-top: 60px;
+}
+.keyboard {
+    height: 40px;
+    /*background-color: #bdc3c7;*/
+}
+
+.delete {
+    height: 80px;
+    background-color: #e74c3c;
+}
+
+.btn-number {
+    margin: 0 auto;
+    /*padding: 100%;*/
+    width: 100%;
+
+}
+
+.max640 {
+    max-width: 640px;
+}
+
+.text-number {
+    text-align: right;
+}
+ .keyboard-box button{/*
+     position: fixed;
+     bottom: 0;*/
+     font-weight: bold;
+
+ }
+.category .item{
+    height: 60px;
+    background: #0E774A;
+}
+.toppings{
+    text-align: center;
+
+}
+.toppings-box{
+    display: table;
+    width: 100%;
+    background-color: #D5E5F5;
+    padding: 10px;
+}
+
+
+/*danxuan*/
+input[type=radio], input[type=checkbox] {
+    display: none;
+}
+input[type=radio] + label, input[type=checkbox] + label {
+    display: inline-block;
+    /*background-color: #CCCCCC;*/
+    /*border-color: gray;*/
+    color: #4d4d4d;
+    /*border-width: 2px;*/
+    /*border-style: solid;*/
+    border-radius: 50%;
+    padding: .2em 0.6em;
+    font-size: 15px;
+}
+input[type=radio]:checked + label.vanilla, input[type=checkbox]:checked + label.vanilla {
+    background-color: #F5F1DA;
+    border-color: #d4c362;
+    color: #a4922c;
+}
+input[type=radio]:checked + label.chocolate, input[type=checkbox]:checked + label.chocolate {
+    background-color: #9E7E68;
+    border-color: #42342b;
+    color: #040303;
+}
+input[type=radio]:checked + label.strawberry, input[type=checkbox]:checked + label.strawberry {
+    background-color: #E5969A;
+    border-color: #b52d34;
+    color: #63191c;
+}
+input[type=radio]:checked + label.caramel, input[type=checkbox]:checked + label.caramel {
+    background-color: #E6B398;
+    border-color: #b85d2d;
+    color: #663419;
+}
+input[type=radio]:checked + label.coconut, input[type=checkbox]:checked + label.coconut {
+    background-color: #F7F7F7;
+    border-color: #ababab;
+    color: #787878;
+}
+input[type=radio]:checked + label.sprinkles, input[type=checkbox]:checked + label.sprinkles {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px; ;
+    background-color: #98D2E6;
+    border-color: #2d94b8;
+    color: #195266;
+}
+
+.col-xs-3{
+    padding: 0px;
+}
+.toppings label{
+    margin: 0;
+    font-weight: 200;
+}
+.toppings .calendar
+{
+    font-weight: 200;
+    font-size: 15px;
+    padding-top: 4px;
+}
